@@ -15,8 +15,8 @@ for row in idReader:
 
     order.append(row[0])    
     details[row[0]]=rdetails
-#output='../../www/protein/protein_prices.html'
-output="temp.html"
+output='../../www/protein/protein_prices.html'
+
 template='templatepy3.html'
 
 pl.HTMLGen(output,template,details,order)
